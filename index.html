@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&family=Rokkitt:wght@600;700&display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Modal</title>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        "apple": ["-apple-system", "BlinkMacSystemFont"],
+                        sans: ["Mulish", "sans-serif"],
+                        mono: ["Rokkitt", "monospace"]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+
+    <!-- Global Container  -->
+
+    <div class="flex justify-center items-center bg-purple-50 min-h-screen">
+
+
+
+        <!-- Card Container  -->
+
+        <div class="flex flex-col m-6 space-y-10 bg-white rounded-xl shadow-2xl md:space-y-0 md:flex-row md:m-0">
+
+
+            <!-- Left Side  -->
+
+            <img class="hidden md:block w-72 rounded-l-xl" src="images/art.jpg" alt="art">
+
+            
+            <!-- Right Side  -->
+
+
+
+            <div class="p-6 md:p-10">
+
+                <!-- Top Content  -->
+
+                <h2 class="font-mono mb-5 text-3xl font-bold">Log In</h2>
+                <p class="max-w-sm mb-12 font-sans font-light text-gray-500 text-sm md pr-20">Log in to your account to upload or download aesthetic images,videos or music.</p>
+
+
+
+                <!-- Input Field -->
+
+                <input type="text" class="w-full px-6 py-3 font-sans border border-gray-300 rounded-md placeholder:font-sans placeholder:font-light placeholder:text-sm" placeholder="Enter your email address">
+                
+                
+                
+                <!-- Middle Content  -->
+                
+                <div class="flex flex-col justify-between items-center mt-6 space-y-6 md:space-y-0 md:space-x-10 md:flex-row">
+                <div class="font-thin text-gray-400 text-md">Forgot password ?</div>
+
+                <button class="rounded-md bg-cyan-700 px-6 py-4 text-white w-full font-sans font-semibold shadow-md md:w-32 hover:-translate-y-0.5 hover:shadow-lg hover:bg-opacity-90  duration-150 flex justify-center space-x-6 "><span>Next</span>
+                    <svg class="w-6 h-6 invert " xmlns="http://www.w3.org/2000/svg" data-name="Layer 1"
+                    viewBox="0 0 32 32" id="right-arrow">
+                    <path
+                        d="M28.66 17.11a1.19 1.19 0 0 0 .09-.15l.1-.2.06-.2a.84.84 0 0 0 .05-.17 2 2 0 0 0 0-.78.84.84 0 0 0-.05-.17l-.06-.2-.1-.2a1.19 1.19 0 0 0-.09-.15 1.79 1.79 0 0 0-.25-.31l-10-10a2 2 0 0 0-2.82 2.82l6.58 6.6H5a2 2 0 0 0 0 4h17.17l-6.58 6.59a2 2 0 1 0 2.82 2.82l10-10a1.79 1.79 0 0 0 .25-.3Z">
+                    </path>
+                </svg></button>
+            </div>
+
+
+            <!-- Horizontal break line  -->
+
+            <div class="w-full border-b mt-10 border-b-gray-300"></div>
+
+
+
+            <!-- Alternate Log In Section  -->
+
+            <!-- Content  -->
+
+            <div class="mt-6 space-y-4 text-center font-thin text-gray-400 text-sm">or log in with</div>
+
+
+            <!-- Button Container  -->
+
+            <div class="flex flex-col justify-center space-y-5 md:flex-row md:space-y-0 md:space-x-4 m-8">
+
+
+                <!-- Facebook Button  -->
+
+                <div class="flex justify-center items-center space-x-3 px-6 py-2 border border-1 border-gray-300 rounded-md space-x-3 shadow-sm hover:-translate-y-0.5 hover:cursor-pointer hover:shadow-lg transition-all duration-150">
+
+                    <img class="w-8 h-8" src="images/facebook.png" alt="Facebook.png">
+                    <span>Facebook</span>
+                </div>
+                
+                <!-- Google Button  -->
+
+                <div class="flex justify-center items-center space-x-3 px-6 py-2 border border-1 border-gray-300 rounded-md space-x-3 shadow-sm hover:-translate-y-0.5 hover:cursor-pointer hover:shadow-lg transition-all duration-150">
+
+                    <img class="w-8 h-8" src="images/google.png" alt="Facebook.png">
+                    <span>Google</span>
+                </div>
+            </div>
+        </div>
+
+
+            
+        </div>
+
+    </div>
+</body>
+
+</html>
