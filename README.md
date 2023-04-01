@@ -1,10 +1,11 @@
-# `Append the workshop-poster image here`
+<kbd>
+<img src="https://github.com/sachindsilva16/Reactjs-Workshop/blob/main/Images/Slide1-Main%20Page.png">
+</kbd>
+<hr>
 
 <hr>
 
-<div>
-<a href="url"><img src="https://github.com/sachindsilva16/Reactjs-Workshop/blob/main/Images/header-image.png"  height="auto" width="auto" style="border-radius:100%;"></a>
-</div>
+
 
 <br>
 
